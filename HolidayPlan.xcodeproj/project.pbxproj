@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5CB4654B2CC0FBFA0003EEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB4652C2CC0FBF60003EEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB465332CC0FBF60003EEC8;
+			remoteInfo = HolidayPlan;
+		};
+		5CB465552CC0FBFA0003EEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB4652C2CC0FBF60003EEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB465332CC0FBF60003EEC8;
+			remoteInfo = HolidayPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CB465342CC0FBF60003EEC8 /* HolidayPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB4654A2CC0FBFA0003EEC8 /* HolidayPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB465542CC0FBFA0003EEC8 /* HolidayPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5CB4655C2CC0FBFA0003EEC8 /* Exceptions for "HolidayPlan" folder in "HolidayPlan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5CB465332CC0FBF60003EEC8 /* HolidayPlan */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5CB465362CC0FBF60003EEC8 /* HolidayPlan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5CB4655C2CC0FBFA0003EEC8 /* Exceptions for "HolidayPlan" folder in "HolidayPlan" target */,
+			);
+			path = HolidayPlan;
+			sourceTree = "<group>";
+		};
+		5CB4654D2CC0FBFA0003EEC8 /* HolidayPlanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolidayPlanTests;
+			sourceTree = "<group>";
+		};
+		5CB465572CC0FBFA0003EEC8 /* HolidayPlanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolidayPlanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB465312CC0FBF60003EEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB465472CC0FBFA0003EEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB465512CC0FBFA0003EEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB4652B2CC0FBF60003EEC8 = {
+			isa = PBXGroup;
+			children = (
+				5CB465362CC0FBF60003EEC8 /* HolidayPlan */,
+				5CB4654D2CC0FBFA0003EEC8 /* HolidayPlanTests */,
+				5CB465572CC0FBFA0003EEC8 /* HolidayPlanUITests */,
+				5CB465352CC0FBF60003EEC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB465352CC0FBF60003EEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB465342CC0FBF60003EEC8 /* HolidayPlan.app */,
+				5CB4654A2CC0FBFA0003EEC8 /* HolidayPlanTests.xctest */,
+				5CB465542CC0FBFA0003EEC8 /* HolidayPlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB465332CC0FBF60003EEC8 /* HolidayPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB4655D2CC0FBFA0003EEC8 /* Build configuration list for PBXNativeTarget "HolidayPlan" */;
+			buildPhases = (
+				5CB465302CC0FBF60003EEC8 /* Sources */,
+				5CB465312CC0FBF60003EEC8 /* Frameworks */,
+				5CB465322CC0FBF60003EEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5CB465362CC0FBF60003EEC8 /* HolidayPlan */,
+			);
+			name = HolidayPlan;
+			packageProductDependencies = (
+			);
+			productName = HolidayPlan;
+			productReference = 5CB465342CC0FBF60003EEC8 /* HolidayPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CB465492CC0FBFA0003EEC8 /* HolidayPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB465622CC0FBFA0003EEC8 /* Build configuration list for PBXNativeTarget "HolidayPlanTests" */;
+			buildPhases = (
+				5CB465462CC0FBFA0003EEC8 /* Sources */,
+				5CB465472CC0FBFA0003EEC8 /* Frameworks */,
+				5CB465482CC0FBFA0003EEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB4654C2CC0FBFA0003EEC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CB4654D2CC0FBFA0003EEC8 /* HolidayPlanTests */,
+			);
+			name = HolidayPlanTests;
+			packageProductDependencies = (
+			);
+			productName = HolidayPlanTests;
+			productReference = 5CB4654A2CC0FBFA0003EEC8 /* HolidayPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CB465532CC0FBFA0003EEC8 /* HolidayPlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB465652CC0FBFA0003EEC8 /* Build configuration list for PBXNativeTarget "HolidayPlanUITests" */;
+			buildPhases = (
+				5CB465502CC0FBFA0003EEC8 /* Sources */,
+				5CB465512CC0FBFA0003EEC8 /* Frameworks */,
+				5CB465522CC0FBFA0003EEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB465562CC0FBFA0003EEC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5CB465572CC0FBFA0003EEC8 /* HolidayPlanUITests */,
+			);
+			name = HolidayPlanUITests;
+			packageProductDependencies = (
+			);
+			productName = HolidayPlanUITests;
+			productReference = 5CB465542CC0FBFA0003EEC8 /* HolidayPlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB4652C2CC0FBF60003EEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5CB465332CC0FBF60003EEC8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5CB465492CC0FBFA0003EEC8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5CB465332CC0FBF60003EEC8;
+					};
+					5CB465532CC0FBFA0003EEC8 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5CB465332CC0FBF60003EEC8;
+					};
+				};
+			};
+			buildConfigurationList = 5CB4652F2CC0FBF60003EEC8 /* Build configuration list for PBXProject "HolidayPlan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CB4652B2CC0FBF60003EEC8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5CB465352CC0FBF60003EEC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB465332CC0FBF60003EEC8 /* HolidayPlan */,
+				5CB465492CC0FBFA0003EEC8 /* HolidayPlanTests */,
+				5CB465532CC0FBFA0003EEC8 /* HolidayPlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB465322CC0FBF60003EEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB465482CC0FBFA0003EEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB465522CC0FBFA0003EEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB465302CC0FBF60003EEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB465462CC0FBFA0003EEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB465502CC0FBFA0003EEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CB4654C2CC0FBFA0003EEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB465332CC0FBF60003EEC8 /* HolidayPlan */;
+			targetProxy = 5CB4654B2CC0FBFA0003EEC8 /* PBXContainerItemProxy */;
+		};
+		5CB465562CC0FBFA0003EEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB465332CC0FBF60003EEC8 /* HolidayPlan */;
+			targetProxy = 5CB465552CC0FBFA0003EEC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5CB4655E2CC0FBFA0003EEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolidayPlan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon02468.HolidayPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CB4655F2CC0FBFA0003EEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolidayPlan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon02468.HolidayPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CB465602CC0FBFA0003EEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CB465612CC0FBFA0003EEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB465632CC0FBFA0003EEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon02468.HolidayPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HolidayPlan";
+			};
+			name = Debug;
+		};
+		5CB465642CC0FBFA0003EEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon02468.HolidayPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayPlan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HolidayPlan";
+			};
+			name = Release;
+		};
+		5CB465662CC0FBFA0003EEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon02468.HolidayPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolidayPlan;
+			};
+			name = Debug;
+		};
+		5CB465672CC0FBFA0003EEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon02468.HolidayPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolidayPlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB4652F2CC0FBF60003EEC8 /* Build configuration list for PBXProject "HolidayPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB465602CC0FBFA0003EEC8 /* Debug */,
+				5CB465612CC0FBFA0003EEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB4655D2CC0FBFA0003EEC8 /* Build configuration list for PBXNativeTarget "HolidayPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB4655E2CC0FBFA0003EEC8 /* Debug */,
+				5CB4655F2CC0FBFA0003EEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB465622CC0FBFA0003EEC8 /* Build configuration list for PBXNativeTarget "HolidayPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB465632CC0FBFA0003EEC8 /* Debug */,
+				5CB465642CC0FBFA0003EEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB465652CC0FBFA0003EEC8 /* Build configuration list for PBXNativeTarget "HolidayPlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB465662CC0FBFA0003EEC8 /* Debug */,
+				5CB465672CC0FBFA0003EEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB4652C2CC0FBF60003EEC8 /* Project object */;
+}
