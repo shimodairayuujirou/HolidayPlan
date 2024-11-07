@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5C4BB63C2CDC7686007AFBB0 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BB63B2CDC7681007AFBB0 /* Untitled.swift */; };
+		5C4BB63E2CDC88A2007AFBB0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BB63D2CDC8897007AFBB0 /* UIColor.swift */; };
+		5CB465702CCA299C0003EEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB465692CCA299C0003EEC8 /* Assets.xcassets */; };
+		5CB465722CCA299C0003EEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB4656C2CCA299C0003EEC8 /* LaunchScreen.storyboard */; };
+		5CB465732CCA299C0003EEC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB465682CCA299C0003EEC8 /* AppDelegate.swift */; };
+		5CB465742CCA299C0003EEC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4656D2CCA299C0003EEC8 /* SceneDelegate.swift */; };
+		5CB465752CCA299C0003EEC8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4656E2CCA299C0003EEC8 /* FirstViewController.swift */; };
+		5CB4657A2CCA2BE10003EEC8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB465792CCA2BD90003EEC8 /* UIView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5CB4654B2CC0FBFA0003EEC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,30 +35,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C4BB63B2CDC7681007AFBB0 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		5C4BB63D2CDC8897007AFBB0 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5CB465342CC0FBF60003EEC8 /* HolidayPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB4654A2CC0FBFA0003EEC8 /* HolidayPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB465542CC0FBFA0003EEC8 /* HolidayPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB465682CCA299C0003EEC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CB465692CCA299C0003EEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB4656A2CCA299C0003EEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB4656B2CCA299C0003EEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CB4656D2CCA299C0003EEC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5CB4656E2CCA299C0003EEC8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5CB465792CCA2BD90003EEC8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5CB4655C2CC0FBFA0003EEC8 /* Exceptions for "HolidayPlan" folder in "HolidayPlan" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 5CB465332CC0FBF60003EEC8 /* HolidayPlan */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5CB465362CC0FBF60003EEC8 /* HolidayPlan */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5CB4655C2CC0FBFA0003EEC8 /* Exceptions for "HolidayPlan" folder in "HolidayPlan" target */,
-			);
-			path = HolidayPlan;
-			sourceTree = "<group>";
-		};
 		5CB4654D2CC0FBFA0003EEC8 /* HolidayPlanTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HolidayPlanTests;
@@ -88,7 +90,7 @@
 		5CB4652B2CC0FBF60003EEC8 = {
 			isa = PBXGroup;
 			children = (
-				5CB465362CC0FBF60003EEC8 /* HolidayPlan */,
+				5CB4656F2CCA299C0003EEC8 /* HolidayPlan */,
 				5CB4654D2CC0FBFA0003EEC8 /* HolidayPlanTests */,
 				5CB465572CC0FBFA0003EEC8 /* HolidayPlanUITests */,
 				5CB465352CC0FBF60003EEC8 /* Products */,
@@ -105,6 +107,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5CB4656F2CCA299C0003EEC8 /* HolidayPlan */ = {
+			isa = PBXGroup;
+			children = (
+				5CB465682CCA299C0003EEC8 /* AppDelegate.swift */,
+				5CB465692CCA299C0003EEC8 /* Assets.xcassets */,
+				5CB4656A2CCA299C0003EEC8 /* Info.plist */,
+				5CB4656C2CCA299C0003EEC8 /* LaunchScreen.storyboard */,
+				5CB4656D2CCA299C0003EEC8 /* SceneDelegate.swift */,
+				5CB465762CCA29A00003EEC8 /* View */,
+				5CB465782CCA29F30003EEC8 /* extension */,
+			);
+			path = HolidayPlan;
+			sourceTree = "<group>";
+		};
+		5CB465762CCA29A00003EEC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C4BB63B2CDC7681007AFBB0 /* Untitled.swift */,
+				5CB4656E2CCA299C0003EEC8 /* FirstViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB465782CCA29F30003EEC8 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				5C4BB63D2CDC8897007AFBB0 /* UIColor.swift */,
+				5CB465792CCA2BD90003EEC8 /* UIView.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +153,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5CB465362CC0FBF60003EEC8 /* HolidayPlan */,
 			);
 			name = HolidayPlan;
 			packageProductDependencies = (
@@ -225,6 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB465702CCA299C0003EEC8 /* Assets.xcassets in Resources */,
+				5CB465722CCA299C0003EEC8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB4657A2CCA2BE10003EEC8 /* UIView.swift in Sources */,
+				5C4BB63E2CDC88A2007AFBB0 /* UIColor.swift in Sources */,
+				5C4BB63C2CDC7686007AFBB0 /* Untitled.swift in Sources */,
+				5CB465732CCA299C0003EEC8 /* AppDelegate.swift in Sources */,
+				5CB465742CCA299C0003EEC8 /* SceneDelegate.swift in Sources */,
+				5CB465752CCA299C0003EEC8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +319,17 @@
 			targetProxy = 5CB465552CC0FBFA0003EEC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CB4656C2CCA299C0003EEC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB4656B2CCA299C0003EEC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5CB4655E2CC0FBFA0003EEC8 /* Debug */ = {
