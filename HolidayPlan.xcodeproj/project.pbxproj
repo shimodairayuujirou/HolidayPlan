@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C4BB63C2CDC7686007AFBB0 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BB63B2CDC7681007AFBB0 /* Untitled.swift */; };
+		5C4BB63C2CDC7686007AFBB0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BB63B2CDC7681007AFBB0 /* HomeView.swift */; };
 		5C4BB63E2CDC88A2007AFBB0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4BB63D2CDC8897007AFBB0 /* UIColor.swift */; };
+		5C8E59742D0A9A8400EC0B0E /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E59732D0A9A6900EC0B0E /* PlanView.swift */; };
+		5C8E59762D0A9BF200EC0B0E /* HobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E59752D0A9BDA00EC0B0E /* HobbyView.swift */; };
+		5C8E59782D0A9C2500EC0B0E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E59772D0A9C1100EC0B0E /* TaskView.swift */; };
 		5CB465702CCA299C0003EEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB465692CCA299C0003EEC8 /* Assets.xcassets */; };
 		5CB465722CCA299C0003EEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB4656C2CCA299C0003EEC8 /* LaunchScreen.storyboard */; };
 		5CB465732CCA299C0003EEC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB465682CCA299C0003EEC8 /* AppDelegate.swift */; };
@@ -35,8 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C4BB63B2CDC7681007AFBB0 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		5C4BB63B2CDC7681007AFBB0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5C4BB63D2CDC8897007AFBB0 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5C8E59732D0A9A6900EC0B0E /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		5C8E59752D0A9BDA00EC0B0E /* HobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyView.swift; sourceTree = "<group>"; };
+		5C8E59772D0A9C1100EC0B0E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		5CB465342CC0FBF60003EEC8 /* HolidayPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB4654A2CC0FBFA0003EEC8 /* HolidayPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB465542CC0FBFA0003EEC8 /* HolidayPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +130,10 @@
 		5CB465762CCA29A00003EEC8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5C4BB63B2CDC7681007AFBB0 /* Untitled.swift */,
+				5C8E59772D0A9C1100EC0B0E /* TaskView.swift */,
+				5C8E59752D0A9BDA00EC0B0E /* HobbyView.swift */,
+				5C8E59732D0A9A6900EC0B0E /* PlanView.swift */,
+				5C4BB63B2CDC7681007AFBB0 /* HomeView.swift */,
 				5CB4656E2CCA299C0003EEC8 /* FirstViewController.swift */,
 			);
 			path = View;
@@ -282,12 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C8E59782D0A9C2500EC0B0E /* TaskView.swift in Sources */,
 				5CB4657A2CCA2BE10003EEC8 /* UIView.swift in Sources */,
 				5C4BB63E2CDC88A2007AFBB0 /* UIColor.swift in Sources */,
-				5C4BB63C2CDC7686007AFBB0 /* Untitled.swift in Sources */,
+				5C4BB63C2CDC7686007AFBB0 /* HomeView.swift in Sources */,
 				5CB465732CCA299C0003EEC8 /* AppDelegate.swift in Sources */,
 				5CB465742CCA299C0003EEC8 /* SceneDelegate.swift in Sources */,
+				5C8E59742D0A9A8400EC0B0E /* PlanView.swift in Sources */,
 				5CB465752CCA299C0003EEC8 /* FirstViewController.swift in Sources */,
+				5C8E59762D0A9BF200EC0B0E /* HobbyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,8 +356,9 @@
 				INFOPLIST_FILE = HolidayPlan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,8 +384,9 @@
 				INFOPLIST_FILE = HolidayPlan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

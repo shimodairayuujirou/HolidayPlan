@@ -38,9 +38,6 @@ class FirstViewController: UIViewController {
         login.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
         login.heightAnchor.constraint(equalToConstant: 60).isActive = true
         login.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        login.addAction(UIAction(handler: { _ in
-            print("ログインしたよ")
-        }), for: .touchUpInside)
         return login
     }()
     
@@ -61,8 +58,20 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.view.backgroundColor = UIColor.mainColor
         setupLayout()
+        
+        loginButton.addAction(UIAction(handler: { [weak self] _ in
+            print("ログインしたよ")
+            let nextVC = HomeViewController()
+            self?.navigationController?.pushViewController(nextVC, animated: true)
+        }), for: .touchUpInside)
+        RegistrationButton.addAction(UIAction(handler: { [weak self] _ in
+            print("新規登録したよ")
+            let nextVC = HomeViewController()
+            self?.navigationController?.pushViewController(nextVC, animated: true)
+        }), for: .touchUpInside)
     }
     
     private func setupLayout() {
