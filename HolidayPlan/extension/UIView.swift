@@ -50,17 +50,31 @@ extension UIImage {
     }
     
     func withAlpha(_ alpha: CGFloat) -> UIImage? {
-            UIGraphicsBeginImageContextWithOptions(size, false, scale)
-            defer { UIGraphicsEndImageContext() }
-            
-            let context = UIGraphicsGetCurrentContext()
-            let rect = CGRect(origin: .zero, size: size)
-            context?.scaleBy(x: 1.0, y: -1.0)
-            context?.translateBy(x: 0.0, y: -size.height)
-            context?.setBlendMode(.normal)
-            context?.setAlpha(alpha)
-            context?.draw(cgImage!, in: rect)
-            
-            return UIGraphicsGetImageFromCurrentImageContext()
-        }
+        UIGraphicsBeginImageContextWithOptions(size, false, scale)
+        defer { UIGraphicsEndImageContext() }
+        
+        let context = UIGraphicsGetCurrentContext()
+        let rect = CGRect(origin: .zero, size: size)
+        context?.scaleBy(x: 1.0, y: -1.0)
+        context?.translateBy(x: 0.0, y: -size.height)
+        context?.setBlendMode(.normal)
+        context?.setAlpha(alpha)
+        context?.draw(cgImage!, in: rect)
+        
+        return UIGraphicsGetImageFromCurrentImageContext()
+    }
+    
+    func darkened(by amount: CGFloat) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(size, false, scale)
+        defer { UIGraphicsEndImageContext() }
+        
+        let context = UIGraphicsGetCurrentContext()
+        let rect = CGRect(origin: .zero, size: size)
+        context?.draw(cgImage!, in: rect)
+        
+        context?.setFillColor(UIColor.black.withAlphaComponent(amount).cgColor)
+        context?.fill(rect)
+        
+        return UIGraphicsGetImageFromCurrentImageContext()
+    }
 }

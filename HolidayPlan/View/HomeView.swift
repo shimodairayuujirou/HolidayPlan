@@ -33,57 +33,87 @@ class HomeViewController: UIViewController {
     
     private let hobbymemobutton: UIButton = {
         let hobbybutton = UIButton()
-
-        var config = UIButton.Configuration.plain()
+        
+        let resizedImage = UIImage(named: "hobbyImage")!.resized(to: CGSize(width: 200, height: 200))
+        
+        // UIButton Configuration
+        var config = UIButton.Configuration.filled()
         config.title = "遊びメモ"
         config.baseForegroundColor = .brown
-        
-        hobbybutton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-        if let originalImage = UIImage(named: "hobbyImage") {
-            let resizedImage = originalImage.resized(to: CGSize(width: 200, height: 200)) // サイズを指定
-            config.image = resizedImage
-            
-            var a = resizedImage
-            a?.withAlpha(0.5)
-        }
+        //apple側のfontによってsizeが異なる可能性があるためこの直接サイズを指定するのは古いやり方
+//        hobbybutton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+        // 通常時の画像設定
+//        config.image = resizedImage
+        config.cornerStyle = .small
+        config.baseBackgroundColor = .white
         config.imagePlacement = .trailing // 画像を右側に配置
-        config.titleAlignment = .leading// タイトルの配置を調整
+        config.titleAlignment = .leading // タイトルの配置を調整
         hobbybutton.configuration = config
+        
+        hobbybutton.configurationUpdateHandler = { _ in
+            var config = hobbybutton.configuration
+            switch hobbybutton.state {
+            case .highlighted:
+                config?.image = resizedImage?.withAlpha(0.5)
+            default:
+                config?.image = resizedImage
+            }
+            hobbybutton.configuration = config
+        }
+        
         // ボタンのスタイル設定
-        hobbybutton.backgroundColor = .white
-        hobbybutton.layer.cornerRadius = 15.0
+//        hobbybutton.backgroundColor = .red
+//        hobbybutton.layer.cornerRadius = 15.0
+//
         hobbybutton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             hobbybutton.heightAnchor.constraint(equalToConstant: 200),
             hobbybutton.widthAnchor.constraint(equalToConstant: 300)
         ])
+        
         return hobbybutton
     }()
     
     private let taskmemobutton: UIButton = {
         let taskbutton = UIButton()
-
-        // ボタンの構成設定
-        var config = UIButton.Configuration.plain()
+        
+        let resizedImage = UIImage(named: "taskImage")!.resized(to: CGSize(width: 200, height: 200))
+        
+        // UIButton Configuration
+        var config = UIButton.Configuration.filled()
         config.title = "タスクメモ"
         config.baseForegroundColor = .brown
-        taskbutton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
-        if let originalImage = UIImage(named: "taskImage") {
-            let resizedImage = originalImage.resized(to: CGSize(width: 200, height: 200)) // サイズを指定
-            config.image = resizedImage
-        }
+        //apple側のfontによってsizeが異なる可能性があるためこの直接サイズを指定するのは古いやり方
+//        hobbybutton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
+        // 通常時の画像設定
+//        config.image = resizedImage
+        config.cornerStyle = .small
+        config.baseBackgroundColor = .white
         config.imagePlacement = .trailing // 画像を右側に配置
-        config.titleAlignment = .leading// タイトルの配置を調整
+        config.titleAlignment = .leading // タイトルの配置を調整
         taskbutton.configuration = config
-
+        
+        taskbutton.configurationUpdateHandler = { _ in
+            var config = taskbutton.configuration
+            switch taskbutton.state {
+            case .highlighted:
+                config?.image = resizedImage?.withAlpha(0.5)
+            default:
+                config?.image = resizedImage
+            }
+            taskbutton.configuration = config
+        }
+        
         // ボタンのスタイル設定
-        taskbutton.backgroundColor = .white
-        taskbutton.layer.cornerRadius = 15.0
+//        hobbybutton.backgroundColor = .red
+//        hobbybutton.layer.cornerRadius = 15.0
+//
         taskbutton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             taskbutton.heightAnchor.constraint(equalToConstant: 200),
             taskbutton.widthAnchor.constraint(equalToConstant: 300)
         ])
+        
         return taskbutton
     }()
     
