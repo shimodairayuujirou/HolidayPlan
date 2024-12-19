@@ -12,6 +12,11 @@
 		5C8E59742D0A9A8400EC0B0E /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E59732D0A9A6900EC0B0E /* PlanView.swift */; };
 		5C8E59762D0A9BF200EC0B0E /* HobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E59752D0A9BDA00EC0B0E /* HobbyView.swift */; };
 		5C8E59782D0A9C2500EC0B0E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E59772D0A9C1100EC0B0E /* TaskView.swift */; };
+		5C9F53182D13F87400C27759 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5C9F53172D13F87400C27759 /* FirebaseAnalytics */; };
+		5C9F531A2D13F87400C27759 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5C9F53192D13F87400C27759 /* FirebaseAuth */; };
+		5C9F531C2D13F87400C27759 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5C9F531B2D13F87400C27759 /* FirebaseCore */; };
+		5C9F531E2D13F87400C27759 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5C9F531D2D13F87400C27759 /* FirebaseFirestore */; };
+		5C9F532C2D13FF2200C27759 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C9F532B2D13FF2200C27759 /* GoogleService-Info.plist */; };
 		5CB465702CCA299C0003EEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB465692CCA299C0003EEC8 /* Assets.xcassets */; };
 		5CB465722CCA299C0003EEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB4656C2CCA299C0003EEC8 /* LaunchScreen.storyboard */; };
 		5CB465732CCA299C0003EEC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB465682CCA299C0003EEC8 /* AppDelegate.swift */; };
@@ -43,6 +48,7 @@
 		5C8E59732D0A9A6900EC0B0E /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 		5C8E59752D0A9BDA00EC0B0E /* HobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyView.swift; sourceTree = "<group>"; };
 		5C8E59772D0A9C1100EC0B0E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		5C9F532B2D13FF2200C27759 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5CB465342CC0FBF60003EEC8 /* HolidayPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB4654A2CC0FBFA0003EEC8 /* HolidayPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB465542CC0FBFA0003EEC8 /* HolidayPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C9F53182D13F87400C27759 /* FirebaseAnalytics in Frameworks */,
+				5C9F531A2D13F87400C27759 /* FirebaseAuth in Frameworks */,
+				5C9F531C2D13F87400C27759 /* FirebaseCore in Frameworks */,
+				5C9F531E2D13F87400C27759 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +110,7 @@
 				5CB4654D2CC0FBFA0003EEC8 /* HolidayPlanTests */,
 				5CB465572CC0FBFA0003EEC8 /* HolidayPlanUITests */,
 				5CB465352CC0FBF60003EEC8 /* Products */,
+				BB203963AD67376AA84393BC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +129,7 @@
 			children = (
 				5CB465682CCA299C0003EEC8 /* AppDelegate.swift */,
 				5CB465692CCA299C0003EEC8 /* Assets.xcassets */,
+				5C9F532B2D13FF2200C27759 /* GoogleService-Info.plist */,
 				5CB4656A2CCA299C0003EEC8 /* Info.plist */,
 				5CB4656C2CCA299C0003EEC8 /* LaunchScreen.storyboard */,
 				5CB4656D2CCA299C0003EEC8 /* SceneDelegate.swift */,
@@ -148,6 +160,13 @@
 			path = extension;
 			sourceTree = "<group>";
 		};
+		BB203963AD67376AA84393BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,8 +183,6 @@
 			dependencies = (
 			);
 			name = HolidayPlan;
-			packageProductDependencies = (
-			);
 			productName = HolidayPlan;
 			productReference = 5CB465342CC0FBF60003EEC8 /* HolidayPlan.app */;
 			productType = "com.apple.product-type.application";
@@ -187,8 +204,6 @@
 				5CB4654D2CC0FBFA0003EEC8 /* HolidayPlanTests */,
 			);
 			name = HolidayPlanTests;
-			packageProductDependencies = (
-			);
 			productName = HolidayPlanTests;
 			productReference = 5CB4654A2CC0FBFA0003EEC8 /* HolidayPlanTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -210,8 +225,6 @@
 				5CB465572CC0FBFA0003EEC8 /* HolidayPlanUITests */,
 			);
 			name = HolidayPlanUITests;
-			packageProductDependencies = (
-			);
 			productName = HolidayPlanUITests;
 			productReference = 5CB465542CC0FBFA0003EEC8 /* HolidayPlanUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -248,6 +261,9 @@
 			);
 			mainGroup = 5CB4652B2CC0FBF60003EEC8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5C9F53162D13F87400C27759 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5CB465352CC0FBF60003EEC8 /* Products */;
 			projectDirPath = "";
@@ -267,6 +283,7 @@
 			files = (
 				5CB465702CCA299C0003EEC8 /* Assets.xcassets in Resources */,
 				5CB465722CCA299C0003EEC8 /* LaunchScreen.storyboard in Resources */,
+				5C9F532C2D13FF2200C27759 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HolidayPlan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -380,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HFB5JB7XDK;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HolidayPlan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -631,6 +650,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C9F53162D13F87400C27759 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C9F53172D13F87400C27759 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C9F53162D13F87400C27759 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5C9F53192D13F87400C27759 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C9F53162D13F87400C27759 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		5C9F531B2D13F87400C27759 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C9F53162D13F87400C27759 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		5C9F531D2D13F87400C27759 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C9F53162D13F87400C27759 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5CB4652C2CC0FBF60003EEC8 /* Project object */;
 }

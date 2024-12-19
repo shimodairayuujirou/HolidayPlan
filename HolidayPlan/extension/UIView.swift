@@ -63,18 +63,4 @@ extension UIImage {
         
         return UIGraphicsGetImageFromCurrentImageContext()
     }
-    
-    func darkened(by amount: CGFloat) -> UIImage? {
-        UIGraphicsBeginImageContextWithOptions(size, false, scale)
-        defer { UIGraphicsEndImageContext() }
-        
-        let context = UIGraphicsGetCurrentContext()
-        let rect = CGRect(origin: .zero, size: size)
-        context?.draw(cgImage!, in: rect)
-        
-        context?.setFillColor(UIColor.black.withAlphaComponent(amount).cgColor)
-        context?.fill(rect)
-        
-        return UIGraphicsGetImageFromCurrentImageContext()
-    }
 }
